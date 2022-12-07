@@ -61,7 +61,7 @@ Alternatively, we can obtain the Sort Provider by passing in the instance to be 
    sort = sortProvider.getSortFor(a);
 ```
 
-Alternatively, we can use our own specification via our own Sort Provider:
+In addition, we can use our own specification via our own Sort Provider:
 ```
    MutableSortProvider sortProvider;
    Sort	sort;   

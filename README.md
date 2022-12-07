@@ -8,7 +8,7 @@ The East Castle Sorting library has two objectives:
 
 ### Improving Java's Sorting Interface
 
-Java currently provides sorting functionality for arrays and lists via static methods in the <code>Arrays</code> and <code>Collections</code> classes respectively. This sorting functionality is mature and provides support for a varity of types, but it suffers from the following shortcomings:
+Java currently provides sorting functionality for arrays and lists via static methods in the <code>Arrays</code> and <code>Collections</code> classes respectively. This sorting functionality is mature and provides support for a variety of types, but it suffers from the following shortcomings:
 1. The implementation is hardwired to the interface. That is, any given call to <code>Arrays.sort()</code> or <code>Collections.sort()</code> is hardwired to one - and only one - implementation.
 If an application wishes to be able to switch sort implementations on the fly (say using serial sort in one environment, and parallel sort in another), it will need to implement custom logic to call the appropriate methods.
 2. Sorting functionality is spread between two classes - <code>Arrays</code> and <code>Collections</code> - each presenting a slightly different interface. 
