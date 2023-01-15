@@ -51,3 +51,7 @@ For example, the following chart compares the elapsed time required to sort rand
 For cases where merging is more appropriate, RadJ employs a merge sort. Currently, RadJ's merge sort is usually slower than the default system sort when a low number of "natural runs" occur (and a low number of merges need to take place). For cases where large numbers of "natural runs" occur, RadJ usually outperforms Java's system sorts.
 
 See [this document](doc/Performance.md) for a full discussion of performance.
+
+### Utilities
+
+This project uses underlying utilities from the Morgan Stanley SilverKing project. See nearby for the forked repo.
