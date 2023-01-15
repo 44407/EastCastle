@@ -20,8 +20,6 @@ East Castle Sorting addresses each of these concerns by separating the sorting i
 This separation allows East Castle to introduce the ability to select the implementation at runtime.
 In addition, East Castle's interface provides support for index-based sorting (so-called "linear sorting"), which can outperform comparison sorting in many instances.
 
-See http://www.glennjudd.com/EastCastle/doc/javadoc/ for the javadoc of the API.
-
 ### Improving Java's Sorting Implementation
 
 The separation of interface from implementation introduces the ability to provide multiple sorting implementations - each tailored to a specific requirement. East Castle provides access to the existing Java system sorts via a serial and a parallel implementation. In addition, East Castle provides an index-based sorting implementation that is linear in asymptotic complexity, and outperforms the existing Java system sorts in many instances. 
@@ -37,8 +35,6 @@ East Castle sorting can be accessed statically via the Sorts class:
 This will use a default sorting implementation based on the type of data being sorted.
 
 See [usage](doc/Usage.md) for additional examples.
-
-See http://www.glennjudd.com/EastCastle/doc/javadoc/ for the javadoc of the API.
 
 ## RadJ
 
